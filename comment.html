@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Satysafe - Comment les hackers te piratent?</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #0a0e27;
+            color: white;
+            line-height: 1.6;
+        }
+
+        header {
+            background: #0f1333;
+            padding: 20px;
+            text-align: center;
+            border-bottom: 2px solid #00d4ff;
+        }
+
+        .logo {
+            font-size: 28px;
+            font-weight: bold;
+        }
+
+        .logo span {
+            color: #00d4ff;
+        }
+
+        nav {
+            margin-top: 10px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            transition: all 0.3s ease;
+            display: inline-block;
+        }
+
+        nav a:hover {
+            color: #00d4ff;
+            transform: scale(1.1);
+        }
+
+        /* Hero avec animation blur */
+        .hero {
+            text-align: center;
+            padding: 60px 20px;
+            background: #0f1333;
+            animation: fadeInBlur 1s ease forwards;
+        }
+
+        .hero h1 {
+            font-size: 36px;
+            margin-bottom: 15px;
+        }
+
+        .hero h1 span {
+            color: #00d4ff;
+        }
+
+        .hero p {
+            font-size: 17px;
+            color: #ccc;
+            max-width: 650px;
+            margin: auto;
+        }
+
+        /* Cards */
+        .attacks {
+            padding: 50px 20px;
+            max-width: 1000px;
+            margin: auto;
+            text-align: center;
+            animation: fadeInBlur 1.2s ease forwards;
+        }
+
+        .attacks h2 {
+            color: #00d4ff;
+            margin-bottom: 30px;
+            font-size: 24px;
+        }
+
+        .cards {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+
+        .card {
+            background: #12163a;
+            border-radius: 12px;
+            padding: 25px;
+            width: 220px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-8px);
+            background: #1a1f4a;
+            box-shadow: 0 8px 20px rgba(0, 212, 255, 0.3);
+        }
+
+        .card .icon {
+            font-size: 34px;
+            margin-bottom: 10px;
+        }
+
+        .card h3 {
+            margin-bottom: 8px;
+            transition: color 0.3s;
+        }
+
+        .card:hover h3 {
+            color: #00d4ff;
+        }
+
+        .card p {
+            color: #aaa;
+            font-size: 14px;
+        }
+
+        .creator {
+            background: #0f1333;
+            text-align: center;
+            padding: 30px;
+            margin-top: 20px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #080b1f;
+            font-size: 14px;
+            
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <div class="logo">Satysafe</div>
+    <nav>
+        <a href="index.html">Acceuill</a>
+        <a href="cybersecurite.html">la cyber sécurité?</a>
+        <a href="comment.html">Comment les hackers te pirate?</a>
+        <a href="conseil.html">Conseils pour la sécurité</a>
+        <a href="contacter.html">Contact-nous</a>
+    </nav>
+</header>
+
+<section class="hero">
+    <h1>Comment les hackers <span>te piratent</span> ?</h1>
+    <p>⚠️Attention: si vous avez ces problemes; mots de pass ne marche pas ,votre device marche anormalement, des programmes inconnus installés....etc ,
+        Il se peut que tu sois sous l'influence de l'un de ces problèmes</p>
+</section>
+
+<section class="attacks">
+    <h2>Les principales méthodes d'attaque</h2>
+    <div class="cards">
+
+        <div class="card">
+            <div class="icon">🎣</div>
+            <h3>Phishing</h3>
+            <p>Un faux email ou site imite ta banque pour voler ton mot de passe.</p>
+        </div>
+
+        <div class="card">
+            <div class="icon">🦠</div>
+            <h3>Malware</h3>
+            <p>Un fichier malveillant s'installe sur ton appareil et vole tes données.</p>
+        </div>
+
+        <div class="card">
+            <div class="icon">🔓</div>
+            <h3>Mot de passe faible</h3>
+            <p>Des logiciels testent des milliers de mots de passe jusqu'au bon.</p>
+        </div>
+
+        <div class="card">
+            <div class="icon">📶</div>
+            <h3>Wi-Fi public</h3>
+            <p>Sur un réseau non sécurisé, tes données peuvent être interceptées.</p>
+        </div>
+
+        <div class="card">
+            <div class="icon">🎭</div>
+            <h3>Ingénierie sociale</h3>
+            <p>Le hacker se fait passer pour quelqu'un de confiance pour te manipuler.</p>
+        </div>
+
+        <div class="card">
+            <div class="icon">💉</div>
+            <h3>Failles de sécurité</h3>
+            <p>Des bugs dans des apps non mises à jour permettent l'accès aux hackers.</p>
+        </div>
+
+    </div>
+</section>
+
+<div class="creator">
+    <p>✨ Créé par <strong>LAHMIDI Abderrahmane</strong> en 2026 ✨</p>
+</div>
+
+<footer>
+    <p>&copy; 2026 Satysafe - Cyber Sécurité</p>
+</footer>
+
+</body>
+</html>

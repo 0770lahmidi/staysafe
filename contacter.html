@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Satysafe - Contact</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #0a0e27;
+            color: white;
+            line-height: 1.6;
+        }
+
+        header {
+            background: #0f1333;
+            padding: 20px;
+            text-align: center;
+            border-bottom: 2px solid #00d4ff;
+        }
+
+        .logo {
+            font-size: 28px;
+            font-weight: bold;
+        }
+
+        .logo span {
+            color: #00d4ff;
+        }
+
+        nav {
+            margin-top: 10px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            transition: all 0.3s ease;
+            display: inline-block;
+        }
+
+        nav a:hover {
+            color: #00d4ff;
+            transform: scale(1.1);
+        }
+
+        /* Hero */
+        .hero {
+            text-align: center;
+            padding: 60px 20px;
+            background: #0f1333;
+        }
+
+        .hero h1 {
+            font-size: 36px;
+            margin-bottom: 15px;
+        }
+
+        .hero h1 span {
+            color: #00d4ff;
+        }
+
+        .hero p {
+            font-size: 17px;
+            color: #ccc;
+            max-width: 650px;
+            margin: auto;
+        }
+
+        /* Formulaire */
+        .contact-section {
+            padding: 50px 20px;
+            max-width: 600px;
+            margin: auto;
+            text-align: center;
+        }
+
+        .contact-section h2 {
+            color: #00d4ff;
+            margin-bottom: 30px;
+            font-size: 24px;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+            text-align: left;
+        }
+
+        .form-group label {
+            display: block;
+            margin-bottom: 8px;
+            color: #ccc;
+            font-size: 14px;
+        }
+
+        .form-group input,
+        .form-group textarea {
+            width: 100%;
+            padding: 12px 15px;
+            background: #12163a;
+            border: 1px solid #1a1f4a;
+            border-radius: 10px;
+            color: white;
+            font-size: 15px;
+            outline: none;
+            transition: all 0.3s ease;
+            font-family: Arial, sans-serif;
+        }
+
+        .form-group input:focus,
+        .form-group textarea:focus {
+            border-color: #00d4ff;
+            box-shadow: 0 0 10px rgba(0, 212, 255, 0.2);
+        }
+
+        .form-group textarea {
+            height: 130px;
+            resize: none;
+        }
+
+        .btn-envoyer {
+            background: #00d4ff;
+            color: #0a0e27;
+            border: none;
+            padding: 13px 40px;
+            border-radius: 10px;
+            font-size: 16px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .btn-envoyer:hover {
+            background: #00b8d9;
+            transform: scale(1.05);
+            box-shadow: 0 6px 18px rgba(0, 212, 255, 0.4);
+        }
+
+       
+
+        .creator {
+            background: #0f1333;
+            text-align: center;
+            padding: 30px;
+            margin-top: 20px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #080b1f;
+            font-size: 14px;
+        
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <div class="logo">Satysafe</div>
+    <nav>
+        <a href="index.html">Acceuill</a>
+        <a href="cybersecurite.html">la cyber sécurité?</a>
+        <a href="piratage.html">Comment les hackers te pirate?</a>
+        <a href="conseil.html">Conseils pour la sécurité</a>
+        <a href="contacter.html">Contact-nous</a>
+    </nav>
+</header>
+
+<section class="hero">
+    <h1>Contacte<span>-nous</span></h1>
+    <p>Tu as une question ou une suggestion ? On est là pour t'aider. Envoie-nous un message !</p>
+</section>
+
+<section class="contact-section">
+    <h2>Envoie un message</h2>
+
+    <div class="form-group">
+        <label>👤 Ton nom</label>
+        <input type="text" placeholder="Ex: Ahmed Benali">
+    </div>
+
+    <div class="form-group">
+        <label>📧 Ton email</label>
+        <input type="email" placeholder="Ex: ahmed@gmail.com">
+    </div>
+
+    <div class="form-group">
+        <label>💬 Ton message</label>
+        <textarea placeholder="Écris ton message ici..."></textarea>
+    </div>
+
+    <button class="btn-envoyer">Envoyer ✉️</button>
+</section>
+
+
+
+<div class="creator">
+    <p>✨ Créé par <strong>LAHMIDI Abderrahmane</strong> en 2026 ✨</p>
+</div>
+
+<footer>
+    <p>&copy; 2026 Satysafe - Cyber Sécurité</p>
+</footer>
+
+</body>
+</html>
